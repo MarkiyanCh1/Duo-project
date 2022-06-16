@@ -78,7 +78,7 @@ ul {
     box-shadow: none; }
 
 .form-check {
-  margin-bottom: 0.27rem; }
+  margin-bottom: 0.34rem; }
 
 .header {
   margin-bottom: 10px;
@@ -251,6 +251,38 @@ ul {
       .main__pagination-dropdown button:hover {
         box-shadow: none; }
 
+.accordion-button:not(.collapsed) {
+  color: #2268b4;
+  background-color: #ffffff;
+  box-shadow: none;
+  padding: 15px 5px 15px 15px;
+  font-size: 20px; }
+
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+
+.accordion-button:focus {
+  box-shadow: none; }
+
+.main-page__accordion .accordion-button {
+  color: #2268b4;
+  font-weight: 600;
+  font-size: 20px;
+  padding-left: 16px;
+  display: flex;
+  justify-content: space-between; }
+
+hr {
+  margin: 0; }
+
+.accordion-body {
+  padding-left: 16px;
+  padding-top: 0; }
+
+.accordion-item {
+  border: 0; }
+
 @media (max-width: 380px) {
   .main__pagination {
     gap: 10px; }
@@ -274,6 +306,16 @@ ul {
     font-size: 17px;
     line-height: 22px;
     color: #ffff; }
+  .footer__upper form {
+    position: relative; }
+  .footer__upper-email-form label:after {
+    content: "";
+    background-image: url("/src/assets/icons/send.svg");
+    width: 13px;
+    height: 11px;
+    position: absolute;
+    right: 10%;
+    top: 36%; }
   .footer__upper-email-form .form-control {
     font-size: 15px;
     color: #BDBDBE;

@@ -171,3 +171,41 @@
     }
   }
 }
+.accordion-button:not(.collapsed) {
+  color: #2268b4;
+  background-color: #ffffff;
+  box-shadow: none;
+  padding: 15px 5px 15px 15px;
+  font-size: 20px;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.main-page__accordion .accordion-button {
+  color: #2268b4;
+  font-weight: 600;
+  font-size: 20px;
+  padding-left: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  margin: 0;
+}
+
+.accordion-body {
+  padding-left: 16px;
+  padding-top: 0;
+}
+
+.accordion-item {
+  border: 0;
+}

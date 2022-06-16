@@ -20,7 +20,19 @@
       line-height: 22px;
       color: $white-color;
     }
+    form {
+      position: relative;
+    }
     &-email-form{
+      label:after {
+        content: "";
+        background-image: url("/src/assets/icons/send.svg");
+        width: 13px;
+        height: 11px;
+        position: absolute;
+        right: 10%;
+        top: 36%;
+      }
       & .form-control{
         font-size:$main-font-size;
         color: $secondary-gray-color;
@@ -29,6 +41,7 @@
         background: initial;
         border: 1px solid #515151;
         border-radius: 39px;
+
         &:hover{
           color:$secondary-color;
           border-color: $secondary-color;
