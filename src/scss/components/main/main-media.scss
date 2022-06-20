@@ -8,4 +8,18 @@
       }
     }
   }
+  @media (max-width: 576px) {
+    &__media-image {
+      display: none;
+    }
+    .row-media {
+       justify-content: center;
+    }
+    .media-size {
+       width: 82%;
+    }
+      &__content-card:hover .main__content-card-image {
+        transform: translateX(0);
+      }
+  }
 }

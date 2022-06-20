@@ -101,6 +101,7 @@
         transform: scale(1.25, 1.25);
         color: $secondary-color;
         transition:$transition;
+        z-index: 101;
       }
       &:hover .main__content-card-image {
         transform: translateX(-100%);
