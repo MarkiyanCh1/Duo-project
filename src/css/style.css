@@ -284,11 +284,12 @@ hr {
 .accordion-item {
   border: 0; }
 
-@media (max-width: 380px) {
-  .main__pagination {
-    gap: 10px; }
-    .main__pagination-next, .main__pagination-back {
-      padding: 5px 15px; } }
+@media (max-width: 992px) {
+  .main .media-pagination {
+    padding-left: 254px; } }
+@media (max-width: 768px) {
+  .main .media-pagination {
+    padding-left: 0; } }
 @media (max-width: 576px) {
   .main__media-image {
     display: none; }
@@ -298,6 +299,11 @@ hr {
     width: 82%; }
   .main__content-card:hover .main__content-card-image {
     transform: translateX(0); } }
+@media (max-width: 380px) {
+  .main__pagination {
+    gap: 10px; }
+    .main__pagination-next, .main__pagination-back {
+      padding: 5px 15px; } }
 
 .footer a {
   color: #BDBDBE; }
